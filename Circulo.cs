@@ -17,7 +17,10 @@ internal class Circulo : Figura
     public Color Color { get => color; set => color = value; }
     public double Radio { get => _radio; set => _radio = value; }
 
-    public override double Area => Math.PI * Math.Pow(_radio, 2);
+    public override double GetArea()
+    {
+        return Math.PI * Math.Pow(_radio, 2);
+    }
 
     public override string ToString()
     {

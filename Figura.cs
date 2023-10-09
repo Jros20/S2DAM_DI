@@ -7,5 +7,6 @@ internal abstract class Figura
 {
   protected Color _color;
 
-    public abstract double Area { get; }
+  public abstract double GetArea();
+
 }
