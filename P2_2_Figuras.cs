@@ -10,7 +10,7 @@ public class P2_2_Figuras
 {
   static void Main(string[] args)
   {
-    List<Figura> figuras = new List<Figura>();
+
 
     Circulo newCirculo = new Circulo(5.9, Color.Azure);
     TrianguloEquilatero newTriangulo = new TrianguloEquilatero(7, Color.Azure);
