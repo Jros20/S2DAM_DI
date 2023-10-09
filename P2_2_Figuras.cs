@@ -16,9 +16,9 @@ public class P2_2_Figuras
     TrianguloEquilatero newTriangulo = new TrianguloEquilatero(7, Color.Azure);
     Rectangulo newRectangulo = new Rectangulo(5.9, 4.6, Color.Azure);
 
-    newCirculo.ToString();
-    newRectangulo.ToString();
-    newTriangulo.ToString();
+    Console.WriteLine(newCirculo.ToString());
+    Console.WriteLine(newRectangulo.ToString());
+    Console.WriteLine(newTriangulo.ToString());
 
     newRectangulo.Base = 15.0;
     newRectangulo.Altura = 8.0;
@@ -31,9 +31,13 @@ public class P2_2_Figuras
     newTriangulo.Lado = 6.0;
     newTriangulo.Color = Color.Blue;
 
-    newCirculo.ToString();
-    newRectangulo.ToString();
-    newTriangulo.ToString();
+    Console.WriteLine(newCirculo.ToString());
+    Console.WriteLine(newRectangulo.ToString());
+    Console.WriteLine(newTriangulo.ToString());
+
+    List<Figura> lista_figuras = new List<Figura>();
+
+
   }
 
 }
