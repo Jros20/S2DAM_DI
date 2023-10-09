@@ -13,7 +13,7 @@ internal class TrianguloEquilatero : Figura
         _color = newcolor;
     }
 
-    public Color Color { get => _color; set => _color = value; }
+   
     public double Lado { get => _lado; set => _lado = value; }
 
 

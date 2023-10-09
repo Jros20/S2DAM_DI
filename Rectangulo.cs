@@ -15,7 +15,7 @@ internal class Rectangulo : Figura
         _color = newcolor;
     }
 
-    public Color Color { get => _color; set => _color = value; }
+  
     public double Base { get => _base; set => _base = value; }
     public double Altura { get => _altura; set => _altura = value; }
 

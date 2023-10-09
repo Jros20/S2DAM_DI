@@ -14,7 +14,7 @@ internal class Circulo : Figura
         _color = newcolor;
     }
 
-    public Color Color { get => _color; set => _color = value; }
+
     public double Radio { get => _radio; set => _radio = value; }
 
     public override double GetArea()
@@ -29,7 +29,7 @@ internal class Circulo : Figura
             FIGURA CIRCULO
             -Radio: {_radio}
             -Color :{_color}
-            
+
             """;
     }
 }

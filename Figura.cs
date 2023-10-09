@@ -8,5 +8,5 @@ internal abstract class Figura
   protected Color _color;
 
   public abstract double GetArea();
-
+ public Color Color { get => _color; set => _color = value; }
 }
