@@ -37,6 +37,12 @@ public class P2_2_Figuras
 
     List<Figura> lista_figuras = new List<Figura>();
 
+    Circulo circulo = new Circulo(5.0, Color.FromArgb(12, 34, 12, 12));
+    Rectangulo rectangulo = new Rectangulo(8.0, 4.0, Color.FromArgb(12, 56, 78, 35));
+    TrianguloEquilatero triangulo = new TrianguloEquilatero(6.0, Color.FromArgb(78, 35, 12, 12));
+    Circulo otroCirculo = new Circulo(3.0, Color.FromArgb(12, 56, 12, 56));
+    Rectangulo otroRectangulo = new Rectangulo(10.0, 2.0, Color.FromArgb(12, 34, 12, 12));
+    TrianguloEquilatero otroTriangulo = new TrianguloEquilatero(4.0, Color.FromArgb(56, 34, 78, 56));
 
   }
 
