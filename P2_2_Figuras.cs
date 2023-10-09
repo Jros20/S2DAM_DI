@@ -22,7 +22,7 @@ public class P2_2_Figuras
 
     newRectangulo.Base = 15.0;
     newRectangulo.Altura = 8.0;
-    newRectangulo.Color = Color.Green;
+    newRectangulo.Color = Color.FromArgb(12, 34, 12, 12);
 
 
     newCirculo.Radio = 7.5;
@@ -44,6 +44,18 @@ public class P2_2_Figuras
     Rectangulo otroRectangulo = new Rectangulo(10.0, 2.0, Color.FromArgb(12, 34, 12, 12));
     TrianguloEquilatero otroTriangulo = new TrianguloEquilatero(4.0, Color.FromArgb(56, 34, 78, 56));
 
+    lista_figuras.Add(circulo);
+    lista_figuras.Add(rectangulo);
+    lista_figuras.Add(triangulo);
+    lista_figuras.Add(otroCirculo);
+    lista_figuras.Add(otroRectangulo);
+    lista_figuras.Add(otroTriangulo);
+    foreach (Figura figura in lista_figuras)
+    { 
+      Console.WriteLine(figura.ToString());
+      Console.WriteLine("Área: " + figura.GetArea());
+      Console.WriteLine("------------------------------------");
+    }
   }
 
 }

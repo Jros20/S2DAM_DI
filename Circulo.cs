@@ -29,6 +29,7 @@ internal class Circulo : Figura
             FIGURA CIRCULO
             -Radio: {_radio}
             -Color :{_color}
+            
             """;
     }
 }

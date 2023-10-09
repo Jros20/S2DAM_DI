@@ -28,7 +28,7 @@ internal class Rectangulo : Figura
     {
         return $"""
             ________________________________
-            FIGURA CIRCULO
+            FIGURA RECTANGULO
             -Altura: {_altura}
             -Base:{_base}
             -Color :{_color}

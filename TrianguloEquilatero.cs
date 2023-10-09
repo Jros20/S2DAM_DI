@@ -26,7 +26,7 @@ internal class TrianguloEquilatero : Figura
     {
         return $"""
             ________________________________
-            FIGURA CIRCULO
+            FIGURA TRIANGULO
             -Lado: {_lado}
             -Color :{_color}
             """;
