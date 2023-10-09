@@ -16,11 +16,12 @@ internal class Rectangulo : Figura
     }
 
     public Color Color { get => color; set => color = value; }
-    public double Radio { get => _radio; set => _radio = value; }
+    public double Base { get => _base; set => _base = value; }
+    public double Altura { get => _altura; set => _altura = value; }
 
     public override double GetArea()
     {
-        return Math.PI * Math.Pow(_radio, 2);
+        return _altura*_base;
     }
 
     public override string ToString()
@@ -28,7 +29,8 @@ internal class Rectangulo : Figura
         return $"""
             ________________________________
             FIGURA CIRCULO
-            -Radio: {_radio}
+            -Altura: {_altura}
+            -Base:{_base}
             -Color :{color}
             """;
     }
