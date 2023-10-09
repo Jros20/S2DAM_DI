@@ -5,16 +5,16 @@ namespace P2_2_Figuras;
 
 internal class Circulo : Figura
 {
-    private Color color;
+    
     protected double _radio;
 
     public Circulo(double radio, Color newcolor)
     {
         _radio = radio;
-        color = newcolor;
+        _color = newcolor;
     }
 
-    public Color Color { get => color; set => color = value; }
+    public Color Color { get => _color; set => _color = value; }
     public double Radio { get => _radio; set => _radio = value; }
 
     public override double GetArea()
@@ -28,7 +28,7 @@ internal class Circulo : Figura
             ________________________________
             FIGURA CIRCULO
             -Radio: {_radio}
-            -Color :{color}
+            -Color :{_color}
             """;
     }
 }

@@ -5,17 +5,17 @@ namespace P2_2_Figuras;
 
 internal class Rectangulo : Figura
 {
-    private Color color;
+ 
     protected double _base,_altura;
 
     public Rectangulo(double newbase ,double altura, Color newcolor)
     {
         _base=newbase;
         _altura=altura;
-        color = newcolor;
+        _color = newcolor;
     }
 
-    public Color Color { get => color; set => color = value; }
+    public Color Color { get => _color; set => _color = value; }
     public double Base { get => _base; set => _base = value; }
     public double Altura { get => _altura; set => _altura = value; }
 
@@ -31,7 +31,7 @@ internal class Rectangulo : Figura
             FIGURA CIRCULO
             -Altura: {_altura}
             -Base:{_base}
-            -Color :{color}
+            -Color :{_color}
             """;
     }
 }

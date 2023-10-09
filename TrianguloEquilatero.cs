@@ -5,16 +5,15 @@ namespace P2_2_Figuras;
 
 internal class TrianguloEquilatero : Figura
 {
-    private Color color;
     protected double _lado;
 
     public TrianguloEquilatero(double lado, Color newcolor)
     {
         _lado = lado;
-        color = newcolor;
+        _color = newcolor;
     }
 
-    public Color Color { get => color; set => color = value; }
+    public Color Color { get => _color; set => _color = value; }
     public double Lado { get => _lado; set => _lado = value; }
 
 
@@ -29,7 +28,7 @@ internal class TrianguloEquilatero : Figura
             ________________________________
             FIGURA CIRCULO
             -Lado: {_lado}
-            -Color :{color}
+            -Color :{_color}
             """;
     }
 }
